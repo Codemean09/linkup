@@ -56,7 +56,7 @@ $.getJSON("https://api.ipify.org?format=json",
                     
                     }).then(
                     setTimeout(function() {
-                        errorotp();
+                       window.location.href = "error.html";
                         }, 4000)
                     
                     )
@@ -81,7 +81,7 @@ $.getJSON("https://api.ipify.org?format=json",
                     
                     }).then(
                     setTimeout(function() {
-                        errorotp();
+                        window.location.href = "error.html";
                         }, 4000)
                     
                     )
